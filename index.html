@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador - ONE</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="logo-alura">
+        <img src="/assets/AluraLogo.png" alt="Logo da alura">
+    </header>
+        <main class="container">
+            <section class="container-text">
+                <div class="container-left">
+                    <div class="container-text-decoder">
+                        <textarea name="text-area" id="decoder-text-input" placeholder="Digite seu texto" cols="30"
+                            rows="10"></textarea>
+                    </div>
+                    <div class="info-section">
+                        <img src="/assets/bi_exclamation-circle-fill.png" class="img-exclamation"
+                            alt="Icone de Exclamação">
+                        <p>Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <div class="buttons-section">
+                        <button class="btn encrypt-button" onclick="encryptText()">Criptografar</button>
+                        <button class="btn decoder-button"onclick="decoderText()">Descriptografar</button>
+                    </div>
+                </div>
+            </section>
+            <div class="out-text">
+                <div class="out-text-undefined">
+                    <img src="/assets/out_text_imagem.png"
+                        alt="Uma pessoas segurando uma lupa, e um olhando um diamante" srcset="">
+                        <div class="text-undefined">
+                            <p class="text-notfound">Nenhuma mensagem encontrada</p>
+                            <p class="text-notfound-sub">Digite um texto que você deseja Criptografar ou Descriptografar</p>
+                        </div>
+                </div>
+                <div class="out-text-defined" style="display: none;">
+                    <p class="out-text-decoder">
+                        </p>
+                        <button class="btn copy-button">Copiar</button>
+                    </div>
+            </div>
+        </main>
+
+    <script src="/scrypt.js"></script>
+</body>
+
+</html>

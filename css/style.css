@@ -1,0 +1,150 @@
+body {
+  background-color: #f3f5fc;
+}
+
+.logo-alura {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.container {
+  display: flex;
+  margin-left: 440px;
+}
+.container-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+#decoder-text-input {
+  background-color: #f3f5fc;
+  width: 680px;
+  height: 600px;
+  resize: none;
+  border: none;
+  color: #0a3871;
+  box-shadow: 0 0 0 0;
+  border: none;
+  outline: 0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+}
+#decoder-text-input::placeholder {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #0a3871;
+}
+.info-section {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #495057;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+.img-exclamation {
+  width: 16px;
+  height: 16px;
+}
+.buttons-section {
+  display: flex;
+  width: 680px;
+  gap: 24px;
+}
+
+.btn {
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  padding: 24px;
+  color: #ffffff;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: translateY(-1px);
+}
+.encrypt-button:hover {
+  background-color: #10509f;
+}
+
+.encrypt-button {
+  background-color: #0a3871;
+  border-color: transparent;
+}
+.decoder-button {
+  border-color: #0a3871;
+  background-color: #d8dfe8;
+  color: #0a3871;
+  border: 2px solid #0a3871;
+}
+.copy-button {
+  color: #0a3871;
+  background-color: transparent;
+}
+
+.out-text-undefined {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-undefined {
+  display: flex;
+  gap:16px ;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.text-notfound {
+  margin-top: 32px;
+  color: #343a40;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: center;
+}
+
+.out-text {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 800px;
+  background-color: #ffffff;
+  margin-left: 80px;
+  border-radius: 32px;
+  justify-content: center;
+  align-items: center;
+}
+.text-notfound-sub {
+  color: #495057;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.out-text-defined {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 32px;
+  height: 781px;
+}
+.out-text-decoder {
+  height: 100%;
+  width: 336px;
+  white-space: normal;
+  overflow-wrap: break-word;
+  color: #495057;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+}
