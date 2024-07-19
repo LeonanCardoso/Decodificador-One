@@ -16,7 +16,14 @@ function hideElement (){
 
 function encryptText(){
     hideElement();
-    const text = textArea.value;
+    let text = textArea.value;
+
+    text = text.replaceAll("e", "enter");
+    text = text.replaceAll("i", "imes");
+    text = text.replaceAll("a", "ai");
+    text = text.replaceAll("o", "ober");
+    text = text.replaceAll("u", "ufat");
+    console.log(text);
 }
 
 function decoderText(){
