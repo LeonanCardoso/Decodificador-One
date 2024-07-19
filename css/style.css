@@ -139,6 +139,7 @@ body {
 .out-text-decoder {
   height: 100%;
   width: 336px;
+  overflow-y: auto;
   white-space: normal;
   overflow-wrap: break-word;
   color: #495057;
