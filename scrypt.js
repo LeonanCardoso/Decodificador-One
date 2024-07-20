@@ -39,7 +39,7 @@ function showElementError() {
 }
 
 function verifyText(text) {
-  return !/[A-ZÀ-ü0-9]/.test(text);
+  return !/[A-ZÀ-ü0-9/;!@#$%^&*()_+[\]{}|\\,.<>?`~:='"-]/.test(text);
 }
 
 function encryptText() {
